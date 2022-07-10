@@ -1,3 +1,21 @@
+## [0.68.11](https://github.com/EddieHubCommunity/LinkFree/compare/v0.68.10...v0.68.11) (2022-07-10)
+
+
+### Bug Fixes
+
+* kubernetes action ([#1472](https://github.com/EddieHubCommunity/LinkFree/issues/1472)) ([bd59936](https://github.com/EddieHubCommunity/LinkFree/commit/bd5993622c1f0cc842f357178ec0fff53e17a408))
+
+
+
+## [0.68.10](https://github.com/EddieHubCommunity/LinkFree/compare/v0.68.9...v0.68.10) (2022-07-09)
+
+
+### Bug Fixes
+
+* consistent docs warnings ([d58a0e6](https://github.com/EddieHubCommunity/LinkFree/commit/d58a0e6f8ee7610910434dbd0d1f359ba863ac1f))
+
+
+
 ## [0.68.9](https://github.com/EddieHubCommunity/LinkFree/compare/v0.68.8...v0.68.9) (2022-07-08)
 
 
@@ -22,24 +40,6 @@
 ### Bug Fixes
 
 * loftwah profile ([#1428](https://github.com/EddieHubCommunity/LinkFree/issues/1428)) ([7128a78](https://github.com/EddieHubCommunity/LinkFree/commit/7128a78a806b50342f6df285243e6bd33b46094d))
-
-
-
-## [0.68.6](https://github.com/EddieHubCommunity/LinkFree/compare/v0.68.5...v0.68.6) (2022-06-30)
-
-
-### Bug Fixes
-
-* Eddie Jaoude text for EddieHub ([9e9c2f7](https://github.com/EddieHubCommunity/LinkFree/commit/9e9c2f70a36c8f77115565e4c53544034e0fe6bb))
-
-
-
-## [0.68.5](https://github.com/EddieHubCommunity/LinkFree/compare/v0.68.4...v0.68.5) (2022-06-27)
-
-
-### Bug Fixes
-
-* update eddiejaoude ([#1413](https://github.com/EddieHubCommunity/LinkFree/issues/1413)) ([e42c0c8](https://github.com/EddieHubCommunity/LinkFree/commit/e42c0c8a41a9aa3bad18d79c3aa7ed07c83dfe65))
 
 
 

@@ -8,10 +8,10 @@
 ![Eddie Jaoude's LinkFree profile GIF](https://user-images.githubusercontent.com/106697681/176986263-b8c278f1-41a8-4b85-80e6-be46e9cc9a00.gif)
 
 <details close>
-  <summary><span style="font-size: 24px; font-weight: 700;"> Note for Hacktoberfest </span></summary>
+  <summary><span style="font-size: 24px; font-weight: 700;">Note for Hacktoberfest </span></summary>
   <br>
 
-> A note for Hacktoberfest participants:
+**Warning**: A note for Hacktoberfest participants:
 >
 > Pull requests which add or edit your information in a `public/data/${yourname}.json` file will NOT be counted for Hacktoberfest.
 >
@@ -50,7 +50,7 @@ Alternatively, skip all the steps by using [![Gitpod Ready-to-Code](https://img.
 ## 👨‍💻 Contributing
 
 - Contributions make the open source community such an amazing place to learn, inspire, and create.
-- Any contributions you make are **greatly appreciated**.
+- Any contributions you make are **truly appreciated**.
 - Check out our [contribution guidelines](/CONTRIBUTING.md) for more information.
 
 ## 🎭 To Add Your Profile
