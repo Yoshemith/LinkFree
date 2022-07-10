@@ -93,6 +93,7 @@ function Milestones({ milestones }) {
       <div className="md:col-8">
         <Timeline
           value={milestones}
+          align="alternate"
           className="p-timeline-vertical p-timeline-alternate customized-timeline"
           marker={(milestone) => marker(milestone)}
           content={
