@@ -26,7 +26,40 @@ function Milestones({ milestones }) {
     <Card
       title={milestone.title}
       subTitle={milestone.date}
-      className="my-5 md:mx-5 shadow-8"
+      className="my-5 md:mx-5 shadow-8 "
+    >
+      {milestone.image && (
+        <img
+          src={milestone.image}
+          onError={(e) =>
+            (e.target.src = 'https://github.com/EddieHubCommunity.png')
+          }
+          alt={milestone.title}
+          width={100}
+          className="shadow-2"
+        />
+      )}
+      <p>{milestone.description}</p>
+      {milestone.url && (
+        <div className="flex justify-content-end">
+          <Button
+            label="Learn more"
+            role="link"
+            rel="noopener noreferrer"
+            className="p-button-raised p-button-rounded"
+            onClick={() => goToLinkHandle(milestone.url)}
+            style={{ backgroundColor: milestone.color }}
+          />
+        </div>
+      )}
+    </Card>
+  )
+
+  const oneCardContent = (milestone) => (
+    <Card
+      title={milestone.title}
+      subTitle={milestone.date}
+      className="my-5 md:mx-5 shadow-8 p-timeline-event-content-one-card"
     >
       {milestone.image && (
         <img
@@ -60,10 +93,13 @@ function Milestones({ milestones }) {
       <div className="md:col-8">
         <Timeline
           value={milestones}
-          align="alternate"
           className="p-timeline-vertical p-timeline-alternate customized-timeline"
           marker={(milestone) => marker(milestone)}
-          content={(milestone) => content(milestone)}
+          content={
+            milestones.length === 1
+              ? (milestone) => oneCardContent(milestone)
+              : (milestone) => content(milestone)
+          }
         />
       </div>
     </section>
